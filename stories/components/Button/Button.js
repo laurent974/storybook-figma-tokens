@@ -1,3 +1,4 @@
+import '../../../figma-tokens/css/variables.css'
 import './button.css';
 
 export const createButton = ({
@@ -8,7 +9,6 @@ export const createButton = ({
   onClick,
 }) => {
   const btn = document.createElement('button');
-  btn.type = 'button';
   btn.innerText = label;
   btn.addEventListener('click', onClick);
 

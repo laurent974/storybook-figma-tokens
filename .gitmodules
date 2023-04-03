@@ -1,0 +1,3 @@
+[submodule "figma-tokens"]
+	path = figma-tokens
+	url = git@github.com:laurent974/figma-tokens.git
